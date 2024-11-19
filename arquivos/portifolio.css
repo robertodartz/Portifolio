@@ -1,0 +1,618 @@
+
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.Mikhael {
+    display: none;
+
+}
+
+
+.header {
+    display: flex;
+    background-color: #B7DDC3;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    height: 4rem;
+    
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.container-inicio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 45rem;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    
+
+
+}
+
+.ola {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 7rem;
+    flex-wrap: wrap;
+    font-size: 60px;
+    margin-top: 1rem;
+    font-family: 'Nunito', sans-serif;
+    
+    
+
+}
+
+.chamo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: -2rem;
+    font-size: 25px;
+    width: 22.5rem;
+    font-family: 'Nunito', sans-serif;
+    border-right: solid rgb(0, 0, 0) 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+@keyframes typing{
+    from{
+     width: 0;
+    }
+    to{
+        width: 22.5rem;
+    }
+    
+}
+.chamo{
+    animation:blinkcursor 500ms steps(40) infinite normal,typing 4s steps(40) 1s normal;
+}
+@keyframes blinkcursor{
+    from{
+        border-right-color: (0, 0, 0);
+    }
+    to{
+        border-right-color:transparent;  
+    }
+}
+
+.front {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: -1rem;
+    color: #498553;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+
+.botao-link {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+
+.estilo-botao {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
+    color: white;
+    width: 260px;
+    height: 60px;
+    background: #498553;
+    border-radius: 19px;
+    flex-wrap: wrap;
+}
+.estilo-botao a:hover{
+    color: rgb(255, 253, 253);
+    background:none;
+    text-decoration: none;
+   
+    
+}
+.estilo-botao a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+}
+.estilo-botao:hover{
+    background-color: #2f6cdf;
+    text-decoration: none;
+}
+
+.boneco {
+    display: flex;
+    justify-content: center;
+    margin-left: 0rem;
+
+    max-width: 10rem;
+    height: 28rem;
+}
+.boneco2{
+    animation: flutuacao 9s ease-in-out infinite;
+    z-index:-1;
+}
+@keyframes flutuacao{
+    0%,100%{
+        transform: translateY(0px);
+    }
+50%{
+    transform: translateY(-80px);
+}
+}
+
+.container-sobre {
+    height: 609px;
+    background: #B7DDC3;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.foto {
+    margin-top: -4rem;
+}
+
+.container-conteudo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: -15rem;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 40rem;
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.saiba {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-baixar {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
+.grid>article {
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.grid>article img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.text {
+    padding: 0 20px 20px;
+}
+
+.text>button {
+    background: #498553;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+.text>button:hover{
+    background: #B7DDC3;
+    color: #000000;
+}
+.text>button a {
+    background:none;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    
+}
+
+
+.habilidades1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-habilidade {
+    display: flex;
+    justify-content: center;
+    max-height: 550px;
+    background: #498553;
+    flex-wrap: wrap;
+    height: 900px;
+
+}
+
+
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #498553;
+    height: 390px;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.info-contato{
+    display: flex;
+    margin-bottom: 1rem;
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+}
+.email{
+    display: flex;
+    margin-bottom: 1rem;
+    
+}
+.telefone{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.icons{
+    display: block;
+    margin-top: 18rem;
+}
+.icons a:hover{
+    background-color:#498553;;
+}
+hr{
+    width: 960px;
+    color: #000;
+
+}
+.enviar{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+   }
+   .enviar:hover{
+    background-color: #B7DDC3;
+   }
+   .enviar a :hover{
+    background:none;
+   }
+   
+
+
+
+
+/* NAVEGAÇÃO RESPONSIVA*/
+
+nav {
+    background: #498553;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: #494949a8;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* cadrs animado*/
+
+.cards {
+    display: grid;
+    grid-column: 1/-1;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    background: #fff;
+    grid-gap: 2rem;
+    padding: 2rem;
+    perspective: 1000px;
+}
+
+.framework-card {
+    background: #ddd;
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: center;
+    padding-top: 3rem;
+    position: relative;
+    transform-origin: top center;
+    --rotate: 10deg;
+    transform: rotateX(var(--rotate));
+    transition: transform 0.2s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.framework-card:before {
+    right: auto;
+    left: 20px;
+}
+
+.framework-card:hover {
+    transform: rotateX(-20deg);
+}
+
+card:before,
+.framework-card:after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #5c0dac;
+    border: 1px solid #000;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    top: 15px;
+    right: 20px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.framework-card:before,
+.framework-card:after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #498553;
+    border: 1px solid #000;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    top: 15px;
+    right: 20px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.framework-card img {
+    height: 80px;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.framework-card p {
+    font-family: 'radnika-next';
+    font-weight: 900;
+}
+
+
+/* botao animado baixar*/
+
+.center {
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    margin-left: 11rem;
+    margin-top: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.download-btn {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.download-btn.btn-1 {
+    border: 5px solid #498553;
+}
+
+.download-btn.btn-2 {
+    border: 5px solid #7b76e2;
+}
+
+.download-btn div {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.download-btn.btn-1 .top {
+    background: #498553;
+}
+
+.download-btn.btn-2 .top {
+    background: #7b76e2;
+}
+
+.download-btn .bottom {
+    background: #eee;
+    color: #222;
+}
+
+.download-btn .top {
+    transition: all 300ms ease-in-out;
+}
+
+.download-btn:hover .top {
+    margin-top: -50px;
+}
+
+
+
+/* BOTAO ANIMADO CONTATO*/
+.cssbuttons-io-button {
+    background: #5c87e4;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+   }
+   
+   
+   .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #fafafa;
+    right: 0.3em;
+    transition: all 0.3s;
+   }
+   
+   .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+   }
+   
+   .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #000000;
+   }
+   
+   .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+   }
+   
+   .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+   }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

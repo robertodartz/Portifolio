@@ -1,0 +1,374 @@
+@media(max-width:900px) {
+
+    body,
+    ul,
+    li,
+    p {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+
+    .Mikhael {
+        display: block;
+        margin-right: 0px;
+        margin-top: 90rem;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .container-inicio {
+        display: flex;
+        margin-left: 0.5rem;
+        margin-top: 5rem;
+        height: 20rem;
+    }
+
+
+    .header {
+        display: flex;
+        background-color: #B7DDC3;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 15px;
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #498553;
+    }
+
+
+    .ola {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 7rem;
+        flex-wrap: wrap;
+        font-size: 35px;
+        margin-top: -15rem;
+        font-family: 'Nunito', sans-serif;
+        
+
+    }
+
+    .chamo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: -1rem;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        width: 18rem;
+    }
+
+    .front {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: -0.9rem;
+        color: #498553;
+        font-size: 11px;
+        font-family: 'Orbitron', sans-serif;
+
+    }
+
+
+    .botao-link {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .estilo-botao {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 0rem;
+        color: white;
+        width: 160px;
+        height: 35px;
+        background: #498553;
+        border-radius: 19px;
+        flex-wrap: wrap;
+    }
+    
+
+    .boneco {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: -21rem;
+        margin-top: 10rem;
+        max-width: 17rem;
+        height: 28rem;
+    }
+
+    .boneco2 {
+        width: 300px;
+        height: 200px;
+    }
+    .boneco2{
+        animation: flutuacao 10s ease-in-out infinite;
+    }
+    @keyframes flutuacao{
+        0%,100%{
+            transform: translateY(0px);
+        }
+    50%{
+        transform: translateY(-40px);
+    }
+    }
+
+    .container-sobre {
+        height: 609px;
+        background: #B7DDC3;
+    }
+
+    .sobre {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        margin-left: -1rem;
+    }
+
+    .foto {
+        display: flex;
+        justify-content: center;
+        margin-top: -1rem;
+        margin-left: 0rem;
+        height: 250px;
+    }
+
+    .container-conteudo {
+        display: flex;
+        margin-left: 0.5rem;
+        
+    }
+
+    .conteudo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 40rem;
+        font-size: 13px;
+        font-family: 'Orbitron', sans-serif;
+        margin-top: 15rem;
+    }
+
+    .saiba {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-top: 9rem;
+
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .container-baixar {
+        display: flex;
+        flex-wrap: wrap;
+         
+        
+    }
+
+   
+/*PROJETOS */
+    .projetos {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 20px;
+        align-items: stretch;
+    }
+
+    .grid>article {
+        border: 2px solid rgb(0, 0, 0);
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .grid>article img {
+        max-width: 100%;
+    }
+
+    .text {
+        padding: 0 20px 20px;
+    }
+
+    .text>button {
+        background:#498553;
+        border: 0;
+        color: white;
+        padding: 10px;
+        width: 100%;
+    }
+    .text>button:hover{
+        background: #B7DDC3;
+        color: #000000;
+    }
+
+    .habilidades1 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .container-habilidade {
+        display: flex;
+        justify-content: center;
+        max-height: 550px;
+        background: #B7DDC3;
+        flex-wrap: wrap;
+
+    }
+
+    .icons {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-top: 0.5rem;
+
+    }
+
+    .icons1 {
+        display: flex;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+
+    }
+    /*FOOTER */
+
+    .container-footer {
+        display: flex;
+        justify-content: center;
+
+        background-color: #498553;
+        height: 290px;
+    }
+
+    .contato {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 15px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .info-contato{
+        display: flex;
+        margin-bottom: 1rem;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .email{
+        display: flex;
+        margin-bottom: 1rem;
+        
+    }
+    .telefone{
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    .icons{
+        display: block;
+        gap: 0px;
+        margin-top: 15em;
+    }
+    hr{
+        width: 320px;
+        color: #000;
+    
+    }
+   .lik11{
+    height: 30px;
+    width: 30px;
+   }
+   .git11{
+    height: 30px;
+    width: 30px;
+   }
+   .insta11{
+    height: 30px;
+    width: 30px;
+   }
+   .enviar{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+   }
+   .enviar:hover{
+    background-color: #B7DDC3;
+   }
+   .enviar a:hover{
+    background: none;
+   }
+
+    /*NAV BAR */
+    @media (max-width: 952px) {
+        label.logo {
+            font-size: 30px;
+            padding-left: 50px;
+        }
+
+        nav ul li a {
+            font-size: 16px;
+        }
+    }
+
+    @media (max-width: 908px){}
+        .checkbtn {
+            display: block;
+        }
+
+        ul {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: #78a385;
+            top: 80px;
+            left: -100%;
+            text-align: center;
+            transition:cubic-bezier(0.075, 0.82, 0.165, 1) .90s;
+        }
+
+        nav ul li {
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+        }
+
+        nav ul li a {
+            font-size: 20px;
+        }
+
+        a:hover,
+        a.active {
+            background: none;
+            color: #000000;
+        }
+
+        #check:checked~ul {
+            left: 0;
+        }
+    }
+        
+
+
+
+
+
+
+
+
+
+
+
+    
